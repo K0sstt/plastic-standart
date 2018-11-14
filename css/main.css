@@ -1,0 +1,114 @@
+.navbar .navbar-nav {
+ display: inline-block;
+ float: none;
+ vertical-align: top;
+ /* You'd have to adjust this whenever an item is added to the nav-bar */
+ margin: 0;
+    
+}
+
+.navbar .navbar-collapse {
+ text-align: center;
+}
+body{    
+    
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: 'Slabo 27px', serif;
+    font-size: 2.3em;
+}
+.container-fluid{
+    flex: 1 0 auto;
+}
+.fon{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: url(../images/fone.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+    font-size: 70px;    
+}
+h1,h2,h3,h4,.navbar{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+.navbar{
+    background-color: #fff;
+    border: 0;
+    box-shadow: 0 0 1px #000;
+}
+.logo{
+    width: calc(100vw - 45px);
+    color: #34495e;
+}
+.display{
+    min-height: 100vh;
+}
+.navbar-inverse .navbar-nav > li > a{
+    color: #34495e;
+    font-size: 20px;
+    padding-right: 5vh;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: #c0392b;
+}
+.navbar-inverse .navbar-nav > li > a:focus{
+    color: #c0392b;
+}
+.fone{
+    text-align: center;
+    padding-top: 190px;
+}
+.tab-content{
+    text-align: center;
+}
+.tabs img{
+    cursor: pointer;
+}
+table tr:first-child td{
+    border-top: 0px;
+}
+table tr:last-child td{
+    border-bottom: 1px solid #ddd;
+}
+.logomm{
+    background-color: #D40007;
+}
+.partners{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #ecf0f1;
+}
+.right{
+    text-align: left;
+}
+.right>p{
+    font-size: 20px;
+    line-height: 40px;
+}
+.center{
+    text-align: center;
+}
+.footer{
+    flex: 0 0 auto;
+    background: url(../images/fone.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.copyr{
+    background: #34495e;
+    padding-top: 10px;
+    margin-top: 30px;
+    color: #fff;
+    box-shadow: 0 0 1px #000;
+}
